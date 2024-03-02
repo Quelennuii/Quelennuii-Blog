@@ -1,0 +1,334 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Quelennuii | 是真的挺无聊</title>
+      <link>undefined/blog</link>
+      <description>欢迎来到扣扣空间</description>
+      <language>en-us</language>
+      <managingEditor>gintoki1011@126.com (Quelennuii)</managingEditor>
+      <webMaster>gintoki1011@126.com (Quelennuii)</webMaster>
+      <lastBuildDate>Thu, 13 Jul 2023 10:23:59 GMT</lastBuildDate>
+      <atom:link href="undefined/tags/javascript/feed.xml" rel="self" type="application/rss+xml"/>
+      
+    <item>
+      <guid>undefined/blog/基于 Tauri， 我写了一个 Markdown 桌面 App</guid>
+      <title>基于 Tauri， 我写了一个 Markdown 桌面 App</title>
+      <link>undefined/blog/基于 Tauri， 我写了一个 Markdown 桌面 App</link>
+      <description>&lt;img src=&quot;https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/213c0d296112436cae85c4c9c88d6f59~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;本文视频地址 前言 大家好，我是小马。 去年，我开发了一款微信排版编辑器 MDX Editor。它可以自定义组件、样式，生成二维码，代码 Diff 高亮，并支持导出 Markdown 和 PDF 等功&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 13 Jul 2023 10:23:59 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/Vercel 推出数据库存储服务，助力全栈开发</guid>
+      <title>Vercel 推出数据库存储服务，助力全栈开发</title>
+      <link>undefined/blog/Vercel 推出数据库存储服务，助力全栈开发</link>
+      <description>&lt;img src=&quot;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/809e62b4d3a84b50b36d4ab6b6c3414a~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;Vercel 是一个流行的 React.js、Next.js 等前端应用部署平台，我们可以一键将 Github 上的应用部署上线，但它缺少一个重要部分：数据库。不过现在已经有了四种新数据库可供选择。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 04 May 2023 04:59:18 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>数据库</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/基于 ChatGPT API 的划词翻译浏览器脚本实现</guid>
+      <title>基于 ChatGPT API 的划词翻译浏览器脚本实现</title>
+      <link>undefined/blog/基于 ChatGPT API 的划词翻译浏览器脚本实现</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c93edb619cb4edf949b9d1bf91662a0~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;最近 GitHub 上有个基于 ChatGPT API 的浏览器脚本，openai-translator， 短时间内 star 冲到了 9.7k， 功能上除了支持翻译外，还支持润色和总结功能。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 28 Mar 2023 10:05:49 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/三分钟 ChatGPT 接入钉钉机器人</guid>
+      <title>三分钟 ChatGPT 接入钉钉机器人</title>
+      <link>undefined/blog/三分钟 ChatGPT 接入钉钉机器人</link>
+      <description>&lt;img src=&quot;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0dcb0b737c9c4c5f948c9fea03d97089~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;ChatGPT 大家应该都已经用了一段时间了，功能非常强大，作为开发人员，我用它写文档、写日报、润色 OKR，知识搜索等等，它给我带来了极大的帮助，但我在使用过程中最大的痛点就是网络。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 16 Mar 2023 10:27:23 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>ChatGPT</category><category>JavaScript</category><category>Node.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/码上掘金不仅可以写 PPT，还可以录视频</guid>
+      <title>码上掘金不仅可以写 PPT，还可以录视频</title>
+      <link>undefined/blog/码上掘金不仅可以写 PPT，还可以录视频</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fda8c8dd9e8844ce956bb6838aa2e2a1~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;本文基于我之前写的一篇文章《Markdown 写 PPT 是如何实现的？》，我们要在此之上实现视频录制的功能。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 08 Sep 2022 16:05:45 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/how-to-maintain-iconfont</guid>
+      <title>Iconfont 还是不能上传，如何维护你的 Icon？</title>
+      <link>undefined/blog/how-to-maintain-iconfont</link>
+      <description>&lt;img src=&quot;https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f176aaf6430a4bfa93de8782b7de03f7~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;大多情况下，我们不必上传自己的图标，只需要在 iconfont.cn 便捷的搜索，就可以将图标加入到自己的项目图标库中，但最近工作中却遇到了比较严重的问题。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 21 Jul 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/iconfontr</guid>
+      <title>【油猴脚本】在 Iconfont 上直接复制 React component 代码</title>
+      <link>undefined/blog/iconfontr</link>
+      <description>&lt;img src=&quot;https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9a6b0cf5711a4ca0b9a9bb16f0689cb1~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;所以我写了一个油猴脚本，可以在 iconfont.cn 上直接复制 React component 代码，本文讲述改脚本的实现原理。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 21 Jul 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/uniapp-user-sharing</guid>
+      <title>Uniapp 实现全民分销功能</title>
+      <link>undefined/blog/uniapp-user-sharing</link>
+      <description>&lt;img src=&quot;https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9e0a790a69d442da8f04b3874084d0fc~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;前段时间在掘金 app 多了一个推广中心，分享课程链接，若有其他用户从你分享的链接购买，你就可以获得佣金，本篇介绍下全民分销功能实现原理。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 24 Jun 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category><category>CSS</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/web-typing</guid>
+      <title>打字机效果的实现与应用</title>
+      <link>undefined/blog/web-typing</link>
+      <description>&lt;img src=&quot;https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ac3da8d3b8d847aaaa4b2d525487e55a~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;在 web 应用中，模拟编辑器的输入效果，往往能够吸引人们的眼球，让用户的注意力聚焦在输入的内容上，其实使用的是 web 动画模拟打字机效果，本文将和大家探讨打字机效果的实现方式以及应用。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 24 Jun 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>前端</category><category>javaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/position-fixed-problem</guid>
+      <title>前端妹子问我 position fixed  失效问题该如何解决？</title>
+      <link>undefined/blog/position-fixed-problem</link>
+      <description>&lt;img src=&quot;https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/81d913acfca842c8af67299bba4d7a7a~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;这两天公司一位妹子问我，“我这边调试的时候本地显示没问题，到手机端就有问题，该怎么办呢？” 测试环境没问题到线上就有问题了？对此我也很纳闷。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 24 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category><category>CSS</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/the-new-wechat-editor</guid>
+      <title>微信排版工具新选择</title>
+      <link>undefined/blog/the-new-wechat-editor</link>
+      <description>&lt;img src=&quot;https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/714602a53c704bcabcc2703ca532791b~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;我写了一个微信排版编辑器，使用 MDX，可自定义组件、样式、生成二维码、代码 diff 高亮，可导出 markdown 和 PDF。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Sun, 15 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category><category>微信</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/codepen-6-screenshot</guid>
+      <title>实现一个 Code Pen：（六）云函数生成网页缩略图</title>
+      <link>undefined/blog/codepen-6-screenshot</link>
+      <description>&lt;p&gt;&lt;small&gt;本文介绍了生成缩略图的方式，包含客户端生成，和服务端生成，并简要分析了阿里云、腾讯云和 vercel 生成浏览器截图的方式。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 12 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/codepen-1-initial</guid>
+      <title>实现一个 Code Pen：（一）项目初始化</title>
+      <link>undefined/blog/codepen-1-initial</link>
+      <description>&lt;p&gt;&lt;small&gt;前段时间掘金上线了一个新功能 Code pen，可以在线写代码，笔者对这种在线实时编辑的功能充满了好奇，所以打算开发一个简易的 Code pen。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/codepen-2-Monaco-Editor</guid>
+      <title>实现一个 Code Pen：（二）在 Next.js 中使用 Monaco Editor</title>
+      <link>undefined/blog/codepen-2-Monaco-Editor</link>
+      <description>&lt;p&gt;&lt;small&gt;Monaco Editor 是 VS Code 中使用的开源代码编辑器， 拥有代码高亮和代码自动补全的功能，本文介绍 Monaco Editor 的加载方式和 React 组件封装&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/codepen-3-prettier</guid>
+      <title>实现一个 Code Pen：（三）10 行代码实现代码格式化</title>
+      <link>undefined/blog/codepen-3-prettier</link>
+      <description>&lt;p&gt;&lt;small&gt;在上文中，我们使用 monaco-editor 结合 Next.js，打造了编辑器的功能，在本文中，我们将继续优化 monaco-editor， 使它拥有代码格式化的功能。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/codepen-4-client-compile</guid>
+      <title>实现一个 Code Pen：（四）浏览器编译代码</title>
+      <link>undefined/blog/codepen-4-client-compile</link>
+      <description>&lt;p&gt;&lt;small&gt;前面的文章中，我们配置好了编辑器，实现了 css、html、js 的编辑，现在我们需要做代码实时运行的功能了，并且可以直接写 less、scss、JavaScript、typescript。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/codepen-5-free-database</guid>
+      <title>实现一个 Code Pen：（五）白嫖云数据库</title>
+      <link>undefined/blog/codepen-5-free-database</link>
+      <description>&lt;p&gt;&lt;small&gt;本篇主要介绍如何使用 uniapp 中的云函数和云数据库，并且通过云函数 URL 化，来给外部应用访问。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/prism-react-renderer</guid>
+      <title>使用 Prism.js 对代码进行语法高亮</title>
+      <link>undefined/blog/prism-react-renderer</link>
+      <description>&lt;p&gt;&lt;small&gt;通常我们在开发博客网站或者技术社区（类似掘金）这类网站的时候，就会有需求“对代码进行语法高亮”，本文主要记录笔者在开发的时候遇到的问题以及解决方案。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/webpack5-lazy-compilation</guid>
+      <title>在 Webpack 5 中开启懒编译（Lazy Compilation）</title>
+      <link>undefined/blog/webpack5-lazy-compilation</link>
+      <description>&lt;img src=&quot;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b786a15d8cd74839b7774c454d02d69b~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;在 webpack 5 中推出了 experiments 配置，目的是为了给用户赋能去开启并试用一些实验的特性。Lazy Compilation 是只有在用户访问时才编译。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 11 May 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/use-threejs-and-react-to-render-a-3d-model-of-your-self</guid>
+      <title>如何使用 react 和 three.js 在网站渲染自己的3D模型</title>
+      <link>undefined/blog/use-threejs-and-react-to-render-a-3d-model-of-your-self</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03e816da47944c2da6ed00f76e0a7419~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;在本文中，我将介绍如何在 react 项目中使用 react-three-fiber 创建的一个3D 软件程序，配置3D 参数(如 Blender 或 Maya ) 。在本文结束时，您将能够在您的网站上渲染一个3D模型 (gltf / glb)。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 11 Mar 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/text-to-speech</guid>
+      <title>文本转语音如此简单</title>
+      <link>undefined/blog/text-to-speech</link>
+      <description>&lt;img src=&quot;https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9dd2c7b008ce4253abdae8d63f3f0474~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;哈喽，大家好，我是小马，这两天在研究文本转音的功能，有时候担心自己的普通话不标准，比方说要录制一个视频，即兴讲可能会卡壳，这个时候我们就可以先准备好文本，然后再利用人工智能来生成音频，下面就分享下我的研究成果吧！&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 03 Mar 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/how-html-to-markdown</guid>
+      <title>HTML 转 Markdown 如此简单</title>
+      <link>undefined/blog/how-html-to-markdown</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a693e62730704370a3768213ec3f97ec~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;本文推荐 HTML 转为 markdown 的工具和实现方式，并找到了一个快捷技巧，收藏等于学会。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 22 Feb 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>React.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/free-deploy-honeyed-words-generator</guid>
+      <title>免费部署一个“土味情话”生成网站</title>
+      <link>undefined/blog/free-deploy-honeyed-words-generator</link>
+      <description>&lt;img src=&quot;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0164da5033af4710895493f25d023ecb~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;首先在“知乎” “微信” 等平台搜索“土味情话”，然后利用抓包工具将一些回答都保存到一个 JSON 中。然后利用随机数就可以随机生成了。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 14 Feb 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>GitHub</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/valentines-day</guid>
+      <title>情人节，让百度首页帮你告白</title>
+      <link>undefined/blog/valentines-day</link>
+      <description>&lt;img src=&quot;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a2123cbc9984de898a771213d7b0f62~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;转眼又是到了2月14日，今天不单单是情人节，我做了一个JS相册，并嵌入大屏了百度首页中，偷偷给对象装个油猴脚本，百度都会帮你告白。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Sun, 13 Feb 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>前端</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/react-hooks-dark-mode</guid>
+      <title>使用 React hooks 监听系统的暗黑模式</title>
+      <link>undefined/blog/react-hooks-dark-mode</link>
+      <description>&lt;p&gt;&lt;small&gt;现在大部分网站也加入了暗黑模式，包括 Tailwindcss、antd design 等都支持了暗黑模式，因此我们的网站也要适配系统皮肤。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Feb 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>React.js</category><category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/tampermonkey-copy-helper</guid>
+      <title>[油猴脚本]文章拷贝助手，文章一键拷贝到微信公众平台</title>
+      <link>undefined/blog/tampermonkey-copy-helper</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7f64568e1fa049fa948442def158b138~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;为什么要写这个脚本 最近开了个前端公众号，需要推送一些优质的文章，但由于时间的关系，原创内容太少，常规的做法是转载一些优秀的文章到自己的公众号。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Feb 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/tauri-vs-electron</guid>
+      <title>初步尝试 tauri，并且与 electron.js 对比 </title>
+      <link>undefined/blog/tauri-vs-electron</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/636408c5873b4999ad2d4b03665e452f~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;Tauri 是一个为所有主流桌面平台构建小型、快速二进制文件的框架。开发人员可以集成任何编译成 HTML、 JS 和 CSS 的前端框架来构建他们的用户界面。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 31 Jan 2022 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>前端</category><category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/Implement-a-vscode-translation-extension</guid>
+      <title>一起来写 VS Code 插件：实现一个翻译插件</title>
+      <link>undefined/blog/Implement-a-vscode-translation-extension</link>
+      <description>&lt;img src=&quot;https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/179abac4c4a84e5783147d8195c9ff9b~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;本文将通过实现一个翻译插件实例的方式来熟悉 VS Code 插件&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 17 Nov 2021 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>Visual Studio Code</category><category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/Develop-an-online-flowchart-website-with-NodeJS</guid>
+      <title>用 NodeJS 开发一版在线流程图网站</title>
+      <link>undefined/blog/Develop-an-online-flowchart-website-with-NodeJS</link>
+      <description>&lt;img src=&quot;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1ea3a9199f34447cb00c1532a54ce8fb~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;对于程序员来说，每天除了写代码，接触较多的可能是各种图表了，诸如流程图、原型图、拓扑图、UML 图以及思维导图等等，我们较为熟悉的是 ProcessOn了&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 09 Nov 2021 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category><category>Node.js</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/use-PostCSS-plugin-to-make-your-site-support-dark-mode</guid>
+      <title>使用 PostCSS 插件让你的网站支持暗黑模式</title>
+      <link>undefined/blog/use-PostCSS-plugin-to-make-your-site-support-dark-mode</link>
+      <description>&lt;img src=&quot;https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9de6b5fc1f804a88b6c6bb9025db04a0~tplv-k3u1fbpfcp-watermark.image?&quot; width=&quot;800&quot;&gt;&lt;p&gt;&lt;small&gt;最近公司需要给多个 webapp（大概20+）加上多皮肤的功能，原先默认是白色皮肤，我们先从暗黑模式入手，从而逐渐实现多皮肤功能。本篇记录下实现思路。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 15 Oct 2021 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/wechat-mini-program-development</guid>
+      <title>小程序开发入门及多端开发浅析</title>
+      <link>undefined/blog/wechat-mini-program-development</link>
+      <description>&lt;p&gt;&lt;small&gt;本部通过一个demo 入门介绍微信小程序云开发，并引申出跨端开发的现状，简要介绍各跨端开发框架，并简述其跨端开发原理。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 30 Nov 2020 09:26:40 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>微信小程序</category><category>JavaScript</category>
+    </item>
+  
+    <item>
+      <guid>undefined/blog/React-SSR-framework-next.js</guid>
+      <title>React 必学SSR框架——next.js</title>
+      <link>undefined/blog/React-SSR-framework-next.js</link>
+      <description>&lt;p&gt;&lt;small&gt;​ 首先我们就回顾一下，我们到底是怎么告别了使用 php/jsp 做服务器端渲染，进入前后端分离的客户端渲染时代，又为什么重新回到了服务端渲染。&lt;/small&gt;&lt;/p&gt;</description>
+      <pubDate>Sat, 26 Sep 2020 16:00:00 GMT</pubDate>
+      <author>gintoki1011@126.com (Quelennuii)</author>
+      <category>React.js</category><category>JavaScript</category>
+    </item>
+  
+    </channel>
+  </rss>
