@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import { useTheme } from 'next-themes'
 
 // 轨迹线性插值
 const lerp = (a: number, b: number, n: number) => (1 - n) * a + n * b
@@ -44,9 +45,8 @@ class Cursor {
       if (getStyle(el[i] as HTMLElement, 'cursor') === 'pointer') this.pt.push(el[i].outerHTML)
 
     document.body.appendChild((this.scr = document.createElement('style')))
-    this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`
+    this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' fill='black' opacity='.5'/></svg>") 4 4, auto}`
   }
-
   refresh() {
     if (this.scr) this.scr.remove()
     if (this.cursor) {
@@ -78,6 +78,7 @@ class Cursor {
         this.cursor?.classList.remove('cursor-hover')
       }
     }
+
     document.onmousemove = (e) => {
       this.pos.curr == null && this.move(e.clientX - 8, e.clientY - 8)
       this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }
@@ -101,9 +102,18 @@ class Cursor {
     requestAnimationFrame(() => this.render())
   }
 }
-
 const CursorComponent: React.FC = () => {
   const cursorRef = useRef<Cursor | null>(null)
+  const { theme } = useTheme()
+
+  //主题变了鼠标也得变颜色
+  useEffect(() => {
+    const color = theme === 'light' ? 'black' : 'white'
+    if (cursorRef.current) {
+      //   fill='${color}'，必须写单引号
+      cursorRef.current.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' fill='${color}' opacity='.5'/></svg>") 4 4, auto}`
+    }
+  }, [theme])
 
   useEffect(() => {
     cursorRef.current = new Cursor()

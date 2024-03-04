@@ -2,7 +2,8 @@
   position: fixed;
   width: 16px;
   height: 16px;
-  background: #000;
+  /* 匹配暗夜模式 */
+  background: var(--cursor-color);
   border-radius: 8px;
   opacity: 0.25;
   z-index: 10086;
@@ -23,4 +24,14 @@
 #cursor.cursor-active {
   opacity: 0.5;
   transform: scale(0.5);
+}
+
+.light {
+  --cursor-color: theme('colors.black');
+  --svg-color: #000;
+}
+
+.dark {
+  --cursor-color: theme('colors.white');
+  --svg-color: #fff;
 }
