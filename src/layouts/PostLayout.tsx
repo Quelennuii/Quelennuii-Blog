@@ -101,11 +101,6 @@ export default function PostLayout(props: Props) {
               <TOCInline asDisclosure={false} toc={props.toc} />
             </div>
             <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
-              {src ? (
-                <div className="mt-6">
-                  <img alt={title} className="w-full rounded object-cover shadow-lg" src={src} />
-                </div>
-              ) : null}
               <div className="prose max-w-none break-words pb-8 pt-10 dark:prose-dark">
                 {children}
               </div>
@@ -155,7 +150,7 @@ export default function PostLayout(props: Props) {
                   href="/blog"
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 >
-                  &larr; 返回文章列表
+                  返回🎈
                 </Link>
               </div>
             </footer>
