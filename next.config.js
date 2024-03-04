@@ -107,7 +107,7 @@ module.exports = withBundleAnalyzer({
           loader: 'file-loader',
           options: {
             publicPath: '/_next',
-            name: 'static/media/[name].[hash].[ext]',
+            name: 'static/images/[name].[hash].[ext]',
           },
         },
       ],
