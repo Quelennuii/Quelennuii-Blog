@@ -41,10 +41,17 @@ const TOCInline = ({
       heading.depth >= fromHeading && heading.depth <= toHeading && !re.test(heading.value)
   )
 
+  const marginLeftClasses = {
+    1: '',
+    2: 'ml-2',
+    3: 'ml-5',
+    4: 'ml-7',
+  }
+  // heading.depth控制标题级数
   const tocList = (
     <ul className="py-4 text-sm font-medium leading-relaxed xl:border-b xl:border-gray-200  xl:dark:border-gray-700">
       {filteredToc.map((heading) => (
-        <li key={heading.value} className={`${heading.depth >= indentDepth && 'ml-6'}`}>
+        <li key={heading.value} className={marginLeftClasses[heading.depth]}>
           <a className="text-primary-500" href={heading.url}>
             {heading.value}
           </a>
