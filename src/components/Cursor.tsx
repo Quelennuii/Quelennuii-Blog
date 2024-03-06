@@ -87,8 +87,14 @@ class Cursor {
     // 移出窗口时隐藏
     document.onmouseenter = (e) => this.cursor?.classList.remove('cursor-hidden')
     document.onmouseleave = (e) => this.cursor?.classList.add('cursor-hidden')
-    document.onmousedown = (e) => this.cursor?.classList.add('cursor-active')
-    document.onmouseup = (e) => this.cursor?.classList.remove('cursor-active')
+    document.onmousedown = (e) => {
+      this.cursor?.classList.remove('cursor-hover')
+      this.cursor?.classList.add('cursor-active')
+    }
+    document.onmouseup = (e) => {
+      this.cursor?.classList.remove('cursor-hover')
+      this.cursor?.classList.remove('cursor-active')
+    }
   }
 
   render() {

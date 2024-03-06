@@ -12,15 +12,18 @@
   transition-property: background, opacity, transform;
 }
 
+/* 隐藏 */
 #cursor.cursor-hidden {
   opacity: 0;
 }
 
+/* 变大 */
 #cursor.cursor-hover {
   opacity: 0.1;
   transform: scale(2.5);
 }
 
+/* 变小 */
 #cursor.cursor-active {
   opacity: 0.5;
   transform: scale(0.5);
