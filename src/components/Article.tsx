@@ -12,6 +12,7 @@ export default function Article({ slug, date, title, summary, tags, images }: Po
       <article>
         <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-start xl:gap-5 xl:space-y-0">
           <dl className="xl:col-span-1">
+            {/* TODO 删除封面图 随机图片太丑了 */}
             {src ? (
               <dt className="mb-4">
                 <Link

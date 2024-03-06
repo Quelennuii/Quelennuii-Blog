@@ -35,8 +35,7 @@ interface Props {
 
 export default function PostLayout(props: Props) {
   const { frontMatter, authorDetails, next, prev, children } = props
-  const { slug, fileName, date, title, tags, images } = frontMatter
-  const src = Array.isArray(images) ? images[0] : images
+  const { slug, fileName, date, title, tags } = frontMatter
 
   return (
     <SectionContainer>

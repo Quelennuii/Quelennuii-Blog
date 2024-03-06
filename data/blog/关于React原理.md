@@ -6,7 +6,7 @@ tags: [React]
 draft: false
 summary: 沉淀两年搞了两棵树，一棵叫Fiber树，另一棵也叫Fiber树
 authors: ['default']
-images: https://picsum.photos/800/500?random=1
+images: https://picsum.photos/800/500?random=4
 layout: PostLayout
 ---
 
