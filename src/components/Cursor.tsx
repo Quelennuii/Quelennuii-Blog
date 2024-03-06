@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useCallback } from 'react'
 import { useTheme } from 'next-themes'
 
 // 轨迹线性插值
@@ -112,19 +112,23 @@ const CursorComponent: React.FC = () => {
   const cursorRef = useRef<Cursor | null>(null)
   const { theme } = useTheme()
 
-  //主题变了鼠标也得变颜色
-  useEffect(() => {
+  const changeColor = useCallback(() => {
     const color = theme === 'light' ? 'black' : 'white'
     if (cursorRef.current) {
-      //   fill='${color}'，必须写单引号
       cursorRef.current.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' fill='${color}' opacity='.5'/></svg>") 4 4, auto}`
     }
   }, [theme])
 
   useEffect(() => {
-    cursorRef.current = new Cursor()
-    // 需要重新获取列表时，使用 cursorRef.current.refresh()
-  }, [])
+    changeColor()
+  }, [changeColor])
+
+  useEffect(() => {
+    if (!cursorRef.current) {
+      cursorRef.current = new Cursor()
+    }
+    changeColor()
+  }, [changeColor])
 
   return null
 }
