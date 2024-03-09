@@ -1,19 +1,13 @@
 import Mail from './mail.svg'
 import Github from './github.svg'
 import Linkedin from './linkedin.svg'
-import Twitter from './twitter.svg'
-import Juejin from './juejin.svg'
-import Zhihu from './zhihu.svg'
 
 // Icons taken from: https://simpleicons.org/
 
 const components = {
   mail: Mail,
   github: Github,
-  juejin: Juejin,
-  zhihu: Zhihu,
   linkedin: Linkedin,
-  twitter: Twitter,
 }
 
 const SocialIcon = ({ kind, href, size = 8 }) => {
