@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Quelennuii | 是真的挺无聊',
   author: 'Quelennuii',
   headerTitle: 'Quelennuii',
-  description: '欢迎来到扣扣空间',
+  description: " Suddenly there's nothing in between me and the sky",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteLogo: '/static/images/logo.png',

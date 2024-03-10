@@ -6,7 +6,7 @@ import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { PostFrontMatter } from 'types/PostFrontMatter'
 import NewsletterForm from '@/components/NewsletterForm'
 import Article from '@/components/Article'
-// import Hero from '@/components/Hero'
+import Card from '@/components/Card'
 
 const MAX_DISPLAY = 5
 
@@ -29,15 +29,35 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             {siteMetadata.description}
           </p>
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="flex">
+          <Card
+            description={'还没想好这里放什么'}
+            imgSrc={'https://picsum.photos/400/300?random=5'}
+            href={'#'}
+            title={'先占个位'}
+          />
+          <Card
+            description={'以后换静态但没想好放啥图'}
+            imgSrc={'https://picsum.photos/400/300?random=6'}
+            href={'#'}
+            title={'图片加载慢是这个网站接口的问题'}
+          />
+          <Card
+            description={'无聊可以一直刷新'}
+            imgSrc={'https://picsum.photos/400/300?random=7'}
+            href={'#'}
+            title={'图片随机的'}
+          />
+        </div>
+        {/* <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && '暂无数据'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug } = frontMatter
             return <Article {...frontMatter} key={slug} />
           })}
-        </ul>
+        </ul> */}
       </div>
-      {posts.length > MAX_DISPLAY && (
+      {/* {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
@@ -47,7 +67,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             全部文章 (☞ﾟヮﾟ)☞;
           </Link>
         </div>
-      )}
+      )} */}
       {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />

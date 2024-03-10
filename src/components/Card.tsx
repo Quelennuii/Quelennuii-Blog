@@ -14,9 +14,9 @@ const Card = ({ title, description, imgSrc, href }) => (
             <Image
               alt={title}
               src={imgSrc}
-              className="object-cover object-center lg:h-[26rem]"
-              width={544}
-              height={306}
+              className="object-cover object-center lg:h-[12rem]"
+              width={400}
+              height={300}
             />
           </Link>
         ) : (
@@ -24,8 +24,8 @@ const Card = ({ title, description, imgSrc, href }) => (
             alt={title}
             src={imgSrc}
             className="object-cover object-center md:h-36 lg:h-48"
-            width={544}
-            height={306}
+            width={400}
+            height={300}
           />
         ))}
       <div className="p-6">
@@ -39,15 +39,15 @@ const Card = ({ title, description, imgSrc, href }) => (
           )}
         </h2>
         <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-        {href && (
+        {/* {href && (
           <Link
             href={href}
             className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label={`Link to ${title}`}
           >
-            查看详情 &rarr;
+            查看
           </Link>
-        )}
+        )} */}
       </div>
     </div>
   </div>
