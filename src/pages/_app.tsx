@@ -15,7 +15,6 @@ import LayoutWrapper from '@/components/LayoutWrapper'
 import CursorComponent from '@/components/Cursor'
 
 export default function App({ Component, pageProps }: AppProps) {
-  console.log('哪个bug让你按下了F12能不能告诉我😭')
   return (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <CursorComponent />

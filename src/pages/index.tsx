@@ -31,22 +31,28 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         </div>
         <div className="flex">
           <Card
-            description={'还没想好这里放什么'}
-            imgSrc={'https://picsum.photos/400/300?random=5'}
-            href={'#'}
-            title={'先占个位'}
+            description={'梦里想夜里哭做梦都想去东蛋'}
+            imgSrc={'/static/images/oor.jpg'}
+            href={
+              'https://www.bilibili.com/video/BV11P411N7nF/?spm_id_from=333.337.search-card.all.click&vd_source=83bd3864b056291a0ead94a5a56f7bef'
+            }
+            title={'OOR你发誓今年还来😭'}
           />
           <Card
-            description={'以后换静态但没想好放啥图'}
-            imgSrc={'https://picsum.photos/400/300?random=6'}
-            href={'#'}
-            title={'图片加载慢是这个网站接口的问题'}
+            description={'Sorry我担livehouse天花板🥰'}
+            imgSrc={'/static/images/lxt.jpg'}
+            href={
+              'https://www.bilibili.com/video/BV1Ju411L7Sr/?spm_id_from=333.337.search-card.all.click&vd_source=83bd3864b056291a0ead94a5a56f7bef'
+            }
+            title={'谁不看旅行团现场谁后悔一辈子'}
           />
           <Card
-            description={'无聊可以一直刷新'}
-            imgSrc={'https://picsum.photos/400/300?random=7'}
-            href={'#'}
-            title={'图片随机的'}
+            description={'除了票版'}
+            imgSrc={'/static/images/hh.jpg'}
+            href={
+              'https://www.bilibili.com/bangumi/play/ep334875?theme=movie&spm_id_from=333.788.recommend_more_video.-1&from_spmid=666.25.episode.0'
+            }
+            title={'法红黑真的是方方面面都特别完美的剧'}
           />
         </div>
         {/* <ul className="divide-y divide-gray-200 dark:divide-gray-700">
